@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1489491996 source:c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\lista estática\lista estatica.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista Estatica.h"
+
+1489492059 c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\lista estática\lista estatica.h
+
+1489523614 source:c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\lista estática\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1489523459 c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\lista estática\listaestatica.h
+
+1489523644 source:c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\lista estática\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1489715374 source:c:\users\giordano berwanger\desktop\lista estática\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1489715213 c:\users\giordano berwanger\desktop\lista estática\listaestatica.h
+
+1489715283 source:c:\users\giordano berwanger\desktop\lista estática\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1490229871 source:c:\users\giordano berwanger\desktop\giordano berwanger - 1826476\lista estática\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1490229431 c:\users\giordano berwanger\desktop\giordano berwanger - 1826476\lista estática\listaestatica.h
+
+1490229493 source:c:\users\giordano berwanger\desktop\giordano berwanger - 1826476\lista estática\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEstatica.h"
+
+1490276441 source:c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1490671178 c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática\listaestatica.h
+
+1490671103 source:c:\users\giordano berwanger\google drive\utfpr\terceiro perído\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1490671103 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática float\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1490706171 c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática float\listaestatica.h
+
+1490276441 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\giordano berwanger - 1826476\lista estática float\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492286199 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492286418 c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float\listaestatica.h
+
+1492286517 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492691282 source:c:\users\aluno\desktop\lista est+ítica float\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492688176 c:\users\aluno\desktop\lista est+ítica float\listaestatica.h
+
+1492691071 source:c:\users\aluno\desktop\lista est+ítica float\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492708342 source:c:\users\aluno\desktop\lista est+ítica float certa\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492708349 c:\users\aluno\desktop\lista est+ítica float certa\listaestatica.h
+
+1492707217 source:c:\users\aluno\desktop\lista est+ítica float certa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492989422 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float certa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1492972670 c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float certa\listaestatica.h
+
+1492988941 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\listas estatica e dinamica atualizadas\lista estática float certa\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
