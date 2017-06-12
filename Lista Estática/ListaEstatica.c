@@ -1,3 +1,10 @@
+/*
+ ============================================================================
+ Arquivo     : Lista Est√°tica 
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -134,8 +141,6 @@ void ExibeLista (listaEstatica *Li)
     printf("NULL\n");
 }
 
-/// --------------------- LISTA EXERCÕCIO PESQUISA E CLASSIFICA«√O --------------------------------//
-
 float MaxMin1 (listaEstatica *Li)
 {
     // clock_t start = clock();
@@ -249,11 +254,11 @@ void Popula (listaEstatica *Li)
 }
 
 
-/// --------------------- ALGORITMOS DE ORDENA«√O - PESQUISA E CLASSIFICA«√O --------------------------------//
+/// --------------------- ALGORITMOS DE ORDENA√á√ÉO - PESQUISA E CLASSIFICA√á√ÉO --------------------------------//
 /// .BUBBLESORT - .INSERTIONSORT - .SELECTIONSORT - .SHELLSORT - .MERGESORT
 /// .QUICKSORT  - .HEAPSORT    - .COUNTINGSORT  - .RADIXSORT - .BUCKETSORT
 
-void bubbleSort (listaEstatica *Li) ///CERTO
+void bubbleSort (listaEstatica *Li) 
 {
     int i,j;
     float *aux;
@@ -272,7 +277,7 @@ void bubbleSort (listaEstatica *Li) ///CERTO
     }
 }
 
-void insertionSort (listaEstatica *Li) ///CERTO
+void insertionSort (listaEstatica *Li)
 {
     int i,j;
     float *aux;
@@ -290,7 +295,7 @@ void insertionSort (listaEstatica *Li) ///CERTO
     }
 }
 
-void selectionSort (listaEstatica *Li) ///CERTO
+void selectionSort (listaEstatica *Li)
 {
     int i,j, min;
     float *aux;
@@ -338,7 +343,7 @@ void shellSort (listaEstatica *Li) ///CERTO
     while(h>1);
 }
 
-void Swap(listaEstatica *Li, int esq, int dir) ///CERTO
+void Swap(listaEstatica *Li, int esq, int dir)
 {
     float *aux;
     aux = Li->Dado[esq];
@@ -346,7 +351,7 @@ void Swap(listaEstatica *Li, int esq, int dir) ///CERTO
     Li->Dado[dir] = aux;
 }
 
-void quickSort (listaEstatica *Li, int inicio, int fim) ///CERTO
+void quickSort (listaEstatica *Li, int inicio, int fim)
 {
     int esq, dir;
     float *pivot;
@@ -403,7 +408,7 @@ void buildHeap(listaEstatica *Li)
     }
 }
 
-void heapSort(listaEstatica *Li) ///FUNCIONA PARA TODOS MENOS PARA O PRIMEIRO ELEMENTO
+void heapSort(listaEstatica *Li)
 {
     buildHeap(Li);
     int k = Li->qtdElementos-1;
@@ -415,58 +420,7 @@ void heapSort(listaEstatica *Li) ///FUNCIONA PARA TODOS MENOS PARA O PRIMEIRO EL
     }
 }
 
-void intercala (listaEstatica *Li, int l, int m, int r) ///NAO FUNCIONA
-{
-    int i, j, k;
-    int n1 = m - l + 1;
-    int n2 = r - m;
-
-    float L[n1], R[n2];
-
-    for(i=0; i<n1; i++)
-        L[i] = *Li->Dado[l+i];
-
-    for(j=0; j<n2; j++)
-        R[j] = *Li->Dado[m + 1 + j];
-
-    i=0; j=0; k=l;
-    while(i < n1 && j <n2){
-        if(L[i] <= R[j]){
-            *Li->Dado[k] = L[i];
-            i++;
-        }
-        else{
-            *Li->Dado[k] = R[j];
-            j++;
-        }
-        k++;
-    }
-
-    while(i < n1){
-        *Li->Dado[k] = L[i];
-        i++;
-        k++;
-    }
-
-    while(j < n2){
-        *Li->Dado[k] = R[j];
-        j++;
-        k++;
-    }
-}
-
-void mergeSort (listaEstatica *Li, int l, int r) ///NAO FUNCIONA
-{
-    if( l < r )
-    {
-        int m = l+(r-1)/2;
-        mergeSort(Li, l, m);
-        mergeSort(Li, m+1, r);
-        intercala(Li, l, m, r);
-    }
-}
-
-void countingSort (listaEstatica *Li) ///CERTO
+void countingSort (listaEstatica *Li)
 {
     int tam = Li->qtdElementos-1, i, j;
     float auxVecB[tam], max = MaxMin1(Li);
@@ -491,7 +445,7 @@ void countingSort (listaEstatica *Li) ///CERTO
         *Li->Dado[i] = auxVecB[i];
 }
 
-void radixSort (listaEstatica *Li) ///CERTO
+void radixSort (listaEstatica *Li)
 {
     int i, max = MaxMin1(Li), exp = 1;
     float *b = (float*) malloc (Li->qtdElementos-1 * sizeof(float));
@@ -592,48 +546,3 @@ void bucketSort2(listaEstatica *Li)
         for(; cont[i]>0; (cont[i])--)
             *Li->Dado[j++] = i;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
