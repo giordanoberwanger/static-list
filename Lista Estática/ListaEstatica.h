@@ -1,4 +1,11 @@
-#define TAM_VETOR 1000000
+/*
+ ============================================================================
+ Arquivo     : Lista Estática (.h)
+ Autor       : Giordano Berwanger (Cryogenio)
+ ============================================================================
+ */
+
+#define TAM_VETOR 1000000 ///TAMANHO DA LISTA
 #define numBucket 100
 typedef struct
 {
@@ -24,8 +31,6 @@ int            Altera       (listaEstatica *Li, int Pos, float *novoDado);
 void           ExibeLista   (listaEstatica *Li);
 float          BuscaDado    (listaEstatica *Li, float *Dado);
 void           Popula       (listaEstatica *Li);
-
-/// -------- LISTA 02 PESQUISA --------
 float          MaxMin1      (listaEstatica *Li);
 void           MaxMin2      (listaEstatica *Li, float max, float min);
 void           MaxMin3      (listaEstatica *Li, float max, float min);
